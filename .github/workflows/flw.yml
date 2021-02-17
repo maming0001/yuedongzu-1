@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/Irreversibles/ziye.git ~/ziye
+          git clone https://github.com/yigeacha/ziye.git ~/ziye
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
