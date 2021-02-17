@@ -22,7 +22,7 @@ jobs:
                   npm install
             - name: "运行【返利网】"
               run: |
-                  node flw.js
+                  node Task/flw.js
                   
               env:
                   FL_FLWURL: ${{ secrets.FL_FLWURL }}
